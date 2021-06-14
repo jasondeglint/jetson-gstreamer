@@ -15,3 +15,17 @@ gst-launch-1.0 filesrc location=video.mp4 ! qtdemux name=demux ! h264parse ! omx
 
 
 ```
+
+from old WaveBase hardware (with what looks like USB 3.0)
+
+`Video: rawvideo (YUY2 / 0x32595559), yuyv422, 1920x1080, 165888 kb/s, 5 fps, 5 tbr, 1000k tbn, 1000k tbc`
+
+
+HDMI to Type-C (with USB2.0 adapter):
+
+`Video: rawvideo (YUY2 / 0x32595559), yuyv422, 1920x1080, 165888 kb/s, 5 fps, 5 tbr, 1000k tbn, 1000k tbc`
+
+
+CamLink:
+
+`Video: rawvideo (I420 / 0x30323449), yuv420p, 1920x1080, 1492992 kb/s, 60 fps, 60 tbr, 1000k tbn, 1000k tbc`
