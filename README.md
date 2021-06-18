@@ -1,3 +1,22 @@
+# gsteamer tee
+
+https://gstreamer.freedesktop.org/documentation/tutorials/basic/multithreading-and-pad-availability.html?gi-language=c
+
+
+
+```
+gst-launch-1.0 v4l2src device=/dev/video0 ! tee name=t \
+t. ! queue name=video-queue ! jpegenc ! avimux ! filesink location=test_out.avi \
+t. ! queue name=stream-queue ! deinterlace ! xvimagesink \
+t. ! queue name=image-queue ! videoconvert ! pngenc compression-level=0 ! filesink location=test_out.png
+```
+
+![](https://gstreamer.freedesktop.org/documentation/tutorials/basic/images/tutorials/basic-tutorial-7.png)
+
+
+
+
+
 # jetson-gstreamer
 
 Full details [here](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%20Linux%20Driver%20Package%20Development%20Guide/accelerated_gstreamer.html#wwpID0E02P0HA)
