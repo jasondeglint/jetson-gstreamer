@@ -1,3 +1,11 @@
+
+
+from gstreatmer to gdkpixbuf
+
+https://gstreamer.freedesktop.org/documentation/gdkpixbuf/gdkpixbufsink.html?gi-language=c#gdkpixbufsink
+
+
+
 # gsteamer tee
 
 https://gstreamer.freedesktop.org/documentation/tutorials/basic/multithreading-and-pad-availability.html?gi-language=c
