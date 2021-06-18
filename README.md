@@ -5,6 +5,9 @@ from gstreatmer to gdkpixbuf
 https://gstreamer.freedesktop.org/documentation/gdkpixbuf/gdkpixbufsink.html?gi-language=c#gdkpixbufsink
 
 
+last sample
+https://thiblahute.github.io/GStreamer-doc/xvimagesink-1.0/index.html?gi-language=c#GstXvImageSink:enable-last-sample
+
 
 # gsteamer tee
 
